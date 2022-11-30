@@ -23,7 +23,7 @@ module.exports = {
       tourId: {
         type: Sequelize.INTEGER,
         references: {
-          model: "Tours",
+          model: "Rooms",
           key: "id"
         },
         onDelete: "CASCADE"

@@ -11,7 +11,7 @@ module.exports = (sequelize, DataTypes) => {
      */
     static associate(models) {
       Dichvu.belongsToMany(models.Tour, {
-        through: "DichvuTours"
+        through: "Dichvurooms"
       })
     }
   };

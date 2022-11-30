@@ -15,7 +15,7 @@ module.exports = (sequelize, DataTypes) => {
         targetKey: "id"
       }),
         Diadiem.belongsToMany(models.Tour, {
-          through: "TourDiadiems"
+          through: "RoomDiadiems"
         })
     }
   };
